@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body> 
+    <!-- <model-viewer> HTML element -->
+      <model-viewer id="hotspot-camera-view-demo" src="scene.gltf" ar ar-modes="scene-viewer webxr quick-look"
+       camera-controls poster="poster.png" shadow-intensity="1.86" environment-image="whipple_creek_regional_park_04_1k.hdr" 
+       exposure="1" shadow-softness="0.77" camera-orbit="-318.6deg 69.88deg 1.187m" field-of-view="30deg" auto-rotate>
+
+       <button class="Hotspot" slot="hotspot-1" data-position="0.007644107588953675m 0.01042223417190169m 0.0945392604942199m"
+         data-normal="0.7768026229746654m 0.3995952359866515m 0.48672510960135645m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation hide">Zone _1</div></button>
+        <button class="Hotspot" slot="hotspot-2" data-position="-0.07814465591634877m 0.0466444969575287m 0.0010421447556547836m" 
+        data-normal="-0.8026764691139039m 0.13459026431928287m 0.5810300738183023m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Zone _2</div>
+
+        </button><button class="Hotspot" slot="hotspot-3" data-position="0.05874819665267124m 0.09974752980155227m -0.01737363998482233m" 
+        data-normal="0.5301048695122861m 0.4692843379223149m 0.7062301590134599m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Zone _3</div>
+
+        </button><button class="Hotspot" slot="hotspot-4" data-position="0.061475953554683715m -0.0844434024656506m -0.099951592718997m" 
+        data-normal="0.9234011940043719m -0.22777016346741347m 0.3089514323406318m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Zone _4</div>
+
+        </button><button class="Hotspot" slot="hotspot-5" data-position="-0.06453427449143723m -0.08496947344043329m -0.06750424631060081m" 
+        data-normal="-0.9837658741643556m -0.17923870570600817m -0.00884257917557112m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Zone _5</div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
+
+    <div id="button2"><a href="/Babylon.Js/index.html"> View on VR</a></div>
+    <div id="button2"><a href="/Sketchlab/test.html"> main</a></div>   
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+</body>
+</html>
