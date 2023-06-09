@@ -4,15 +4,27 @@ body{
 }
 .navbarScroll.navbarDark {
     background-color: black;
+
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/front.jpg');
-    background-size:cover;
+    /*background: url('images/front.jpg'); */
     position:relative;
 }
+#myvideo{
+    /*position: fixed;*/
+   /* right: 0;
+    /*bottom: 0;*/
+    min-width: 100%;
+}
+/*.bg{
+    min-height:100% ;
+    min-width:100% ;
+    background: url('images/logo.jpeg');
+    position: fixed;
+}*/
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -45,7 +57,6 @@ body{
 /* services section css */
 .servicesText.card {
     height: 280px;
-    cursor: pointer;
   }
 .servicesIcon {
     font-size: 36px;
