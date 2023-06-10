@@ -38,7 +38,7 @@ div[class*=box] {
     justify-content: center;
     align-items: center;
   }
-.box-1 { background-color:#F5EFE7;
+.box-1 { 
         margin-left: 2cm; 
         margin-top: 1cm;
         border-radius: 10px;
@@ -63,7 +63,7 @@ div[class*=box] {
     color: #f03d00;
     transition: all 0.3s;
     position: relative;
-    font-size: 120%;
+    font-size: 150%;
   }
   .btn-one span {
     transition: all 0.3s;
